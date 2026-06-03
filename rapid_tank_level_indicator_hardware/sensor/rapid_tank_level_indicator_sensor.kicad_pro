@@ -507,7 +507,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "rapid_tank_level_indicator.kicad_pro",
+    "filename": "rapid_tank_level_indicator_sensor.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -674,8 +674,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "rapid_tank_level_indicator.kicad_sch",
-        "name": "rapid_tank_level_indicator",
+        "filename": "rapid_tank_level_indicator_sensor.kicad_sch",
+        "name": "rapid_tank_level_indicator_sensor",
         "uuid": "1c1f559e-6fe1-4cfb-8cad-aaff8e3c1892"
       }
     ],
@@ -685,7 +685,7 @@
   "sheets": [
     [
       "1c1f559e-6fe1-4cfb-8cad-aaff8e3c1892",
-      "rapid_tank_level_indicator"
+      "rapid_tank_level_indicator_sensor"
     ]
   ],
   "text_variables": {},
