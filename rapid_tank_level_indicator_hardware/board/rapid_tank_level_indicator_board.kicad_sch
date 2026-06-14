@@ -2676,172 +2676,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SS34"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SS34"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMA"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "40V 3A Schottky Diode, SMA"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*SMA*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SS34_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SS34_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Interface_CAN_LIN:MCP2562-E-SN"
 			(pin_names
 				(offset 1.016)
@@ -7203,6 +7037,12 @@
 		(uuid "0e123f92-526c-460f-8f87-2cab4e1bbb29")
 	)
 	(junction
+		(at 213.36 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "120f6b02-7ae9-477b-a740-33b3d48de3ba")
+	)
+	(junction
 		(at 322.58 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7473,12 +7313,6 @@
 		(uuid "b5d4997d-aea0-4007-bbb6-07a67374f24e")
 	)
 	(junction
-		(at 205.74 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6d1ca93-8fde-479c-a2d9-080de3116e84")
-	)
-	(junction
 		(at 209.55 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7742,16 +7576,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 33.02) (xy 207.01 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "009cbae7-1dea-468c-b925-36aa5f2d55c3")
-	)
-	(wire
-		(pts
 			(xy 298.45 53.34) (xy 304.8 53.34)
 		)
 		(stroke
@@ -7932,16 +7756,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 35.56) (xy 213.36 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12142ecc-fc95-4907-b7e8-729e45a072fa")
-	)
-	(wire
-		(pts
 			(xy 237.49 163.83) (xy 250.19 163.83)
 		)
 		(stroke
@@ -8009,16 +7823,6 @@
 			(type default)
 		)
 		(uuid "175f234f-f30c-4387-b1a4-6177b0218930")
-	)
-	(wire
-		(pts
-			(xy 214.63 33.02) (xy 218.44 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1867ac27-addc-460d-b6c6-f707d8122fb3")
 	)
 	(wire
 		(pts
@@ -8512,7 +8316,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 33.02) (xy 205.74 35.56)
+			(xy 213.36 33.02) (xy 213.36 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8679,6 +8483,16 @@
 			(type default)
 		)
 		(uuid "62d5050e-e3a9-4b65-ae55-1ae4955bef25")
+	)
+	(wire
+		(pts
+			(xy 213.36 33.02) (xy 218.44 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6405f4da-d2ba-4fa3-9a09-80d9736e8087")
 	)
 	(wire
 		(pts
@@ -9542,7 +9356,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 33.02) (xy 205.74 33.02)
+			(xy 201.93 33.02) (xy 213.36 33.02)
 		)
 		(stroke
 			(width 0)
@@ -9969,16 +9783,6 @@
 			(type default)
 		)
 		(uuid "e8f5fc0b-03a2-4978-b751-0a66dddd5bfd")
-	)
-	(wire
-		(pts
-			(xy 205.74 35.56) (xy 213.36 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e995261f-0433-4979-adbb-0789dfc81836")
 	)
 	(wire
 		(pts
@@ -11740,7 +11544,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "1k"
 			(at 222.885 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11783,7 +11587,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25091"
+		(property "LCSC" "C11702"
 			(at 227.838 130.556 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13799,7 +13603,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "22bbcd3e-8f9e-45d6-b626-15e554d6262e")
 		(property "Reference" "H2"
 			(at 163.195 95.885 90)
@@ -14829,7 +14633,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "47329e8f-5258-4da6-b379-7dc6d4d2bea6")
 		(property "Reference" "H3"
 			(at 163.195 100.965 90)
@@ -18545,7 +18349,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "97d056ad-c87e-46cd-bae3-5a942086365e")
 		(property "Reference" "J17"
@@ -18825,7 +18629,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9c8a856e-a6f9-4df2-873f-2ab058ee35d8")
 		(property "Reference" "J5"
 			(at 242.57 182.88 0)
@@ -20286,7 +20090,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b7911d84-4c12-4256-8fb3-a5e7a7cdc9e6")
 		(property "Reference" "H1"
 			(at 163.195 90.805 90)
@@ -21744,106 +21548,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SS34")
-		(at 210.82 33.02 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cb206a6f-bc25-4854-a6db-a92e797c57e6")
-		(property "Reference" "D2"
-			(at 210.82 30.226 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RB070MM-30TR"
-			(at 211.074 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 210.82 28.575 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809051324_ROHM-Semicon-RB070MM-30TR_C162059.pdf"
-			(at 210.82 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "30V 490mV@1.5A 1.5A SOD-123F Schottky Diodes ROHS"
-			(at 210.82 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C162059"
-			(at 210.312 28.448 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "basic" "no"
-			(at 213.36 29.718 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7fb40a90-f7ec-413e-8dcb-fdee480c9631")
-		)
-		(pin "2"
-			(uuid "a9df72d8-ee43-4041-a3c2-e70a2e3c536f")
-		)
-		(instances
-			(project "rapid_tank_level_indicator_board"
-				(path "/1c1f559e-6fe1-4cfb-8cad-aaff8e3c1892"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 184.15 41.91 180)
 		(unit 1)
@@ -22211,7 +21915,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d7906eb3-5fcf-4a1a-a256-17bad4624273")
 		(property "Reference" "SW2"
 			(at 250.063 99.4953 90)
@@ -23409,7 +23113,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e41c501c-34fd-431a-a49c-051ba85da023")
 		(property "Reference" "H4"
 			(at 163.195 106.045 90)
@@ -24516,7 +24220,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C11702"
 			(at 232.918 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24817,7 +24521,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fa91f04b-0816-4b20-b4dd-6ebeca7d035d")
 		(property "Reference" "SW1"
 			(at 243.713 63.9353 90)

@@ -5,7 +5,7 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -51,8 +51,8 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
-    "zone_display_mode": 0
+    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffffff",
+    "zone_display_mode": 1
   },
   "git": {
     "integration_disabled": false,
@@ -61,7 +61,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "rapid_tank_level_indicator.kicad_prl",
+    "filename": "rapid_tank_level_indicator_board.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -90,14 +90,14 @@
       9
     ],
     "col_widths": [
-      69,
+      70,
       87,
       102,
-      85,
-      80,
-      120,
-      81,
       87,
+      82,
+      122,
+      84,
+      91,
       42,
       935
     ],

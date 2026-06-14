@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -61,7 +61,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "rapid_tank_level_indicator.kicad_prl",
+    "filename": "rapid_tank_level_indicator_sensor.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -90,14 +90,14 @@
       9
     ],
     "col_widths": [
-      69,
+      70,
       87,
       102,
-      85,
-      80,
-      120,
-      81,
       87,
+      82,
+      122,
+      84,
+      91,
       42,
       935
     ],
